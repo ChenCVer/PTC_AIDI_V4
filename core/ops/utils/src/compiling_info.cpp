@@ -3,8 +3,8 @@
 #include <torch/extension.h>
 
 #ifdef WITH_CUDA
-#include <cuda_runtime_api.h>
-//#include </usr/local/cuda-10.1/targets/x86_64-linux/include/cuda_runtime_api.h>
+//#include <cuda_runtime_api.h>
+#include </usr/local/cuda-10.2/targets/x86_64-linux/include/cuda_runtime_api.h>
 int get_cudart_version() { return CUDART_VERSION; }
 #endif
 

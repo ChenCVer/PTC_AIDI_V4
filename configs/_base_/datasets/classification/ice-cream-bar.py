@@ -5,7 +5,7 @@
 本配置可以实现抽取0.bg和1.ng任意个类别进行分类训练.
 """
 dataset_type = 'ClsDataset'
-data_root = '/home/cxj/Desktop/data/ice_cream_bar_cls_128/'
+data_root = '/media/cxj/4B5C364CB1D42ECE/Ubuntu/data/ice_cream_bar_cls_128/'
 
 img_norm_cfg = dict(
     mean_bgr=[0., 0., 0.],
